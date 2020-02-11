@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 const typeAndReq={
     type:String,
-    required:true
+    required:true,
 }
 
 var userSchema = new mongoose.Schema({

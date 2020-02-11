@@ -11,7 +11,7 @@ router.get('/',(req,res)=>{
         users.forEach(function(user) {
           userMap[user._id] = user;
         });
-    
+       
         return res.json(userMap);  
       });
 });
